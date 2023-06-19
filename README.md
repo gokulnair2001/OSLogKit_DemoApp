@@ -1,6 +1,6 @@
 # OSLogKit DemoApp
 
-A demo app which shows the usage of [OSLogKit\(https://github.com/gokulnair2001/OSLogKit)🕹️
+A demo app which shows the usage of [OSLogKit](https://github.com/gokulnair2001/OSLogKit)🕹️
 
 ## 📸 SnapShots
 
