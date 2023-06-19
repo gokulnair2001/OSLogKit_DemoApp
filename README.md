@@ -2,6 +2,10 @@
 
 A demo app which shows the usage of [OSLogKit](https://github.com/gokulnair2001/OSLogKit)🕹️
 
+## 📔 Instructions
+* Add the log message in text field and click on the capture button to log
+* Export button will capture all the logs mad in last 1 hr(Customisable) 
+
 ## 📸 SnapShots
 
 | Empty State | Logs captured |
