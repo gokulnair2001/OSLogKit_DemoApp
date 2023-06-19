@@ -6,9 +6,11 @@
 //
 
 import SwiftUI
+import OSLogKit
 
 @main
 struct Test_OSKitApp: App {
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E5CF87E2A3CBAB400BFC04D /* OSLogKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1E5CF87D2A3CBAB400BFC04D /* OSLogKit */; };
 		1EA458A32A3C70080074B96C /* Test_OSKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA458A22A3C70080074B96C /* Test_OSKitApp.swift */; };
 		1EA458A52A3C70080074B96C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA458A42A3C70080074B96C /* ContentView.swift */; };
 		1EA458A72A3C70090074B96C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA458A62A3C70090074B96C /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E5CF87B2A3CB9EF00BFC04D /* OSLogKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = OSLogKit; path = ../OSLogKit; sourceTree = "<group>"; };
 		1EA4589F2A3C70080074B96C /* Test_OSKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test_OSKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EA458A22A3C70080074B96C /* Test_OSKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_OSKitApp.swift; sourceTree = "<group>"; };
 		1EA458A42A3C70080074B96C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,15 +28,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E5CF87E2A3CBAB400BFC04D /* OSLogKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E5CF87A2A3CB9EF00BFC04D /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				1E5CF87B2A3CB9EF00BFC04D /* OSLogKit */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
 		1EA458962A3C70080074B96C = {
 			isa = PBXGroup;
 			children = (
+				1E5CF87A2A3CB9EF00BFC04D /* Packages */,
 				1EA458A12A3C70080074B96C /* Test_OSKit */,
 				1EA458A02A3C70080074B96C /* Products */,
 			);
@@ -83,6 +95,9 @@
 			dependencies = (
 			);
 			name = Test_OSKit;
+			packageProductDependencies = (
+				1E5CF87D2A3CBAB400BFC04D /* OSLogKit */,
+			);
 			productName = Test_OSKit;
 			productReference = 1EA4589F2A3C70080074B96C /* Test_OSKit.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +126,9 @@
 				Base,
 			);
 			mainGroup = 1EA458962A3C70080074B96C;
+			packageReferences = (
+				1E5CF87C2A3CBAB400BFC04D /* XCRemoteSwiftPackageReference "OSLogKit" */,
+			);
 			productRefGroup = 1EA458A02A3C70080074B96C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -339,6 +357,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1E5CF87C2A3CBAB400BFC04D /* XCRemoteSwiftPackageReference "OSLogKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gokulnair2001/OSLogKit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1E5CF87D2A3CBAB400BFC04D /* OSLogKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E5CF87C2A3CBAB400BFC04D /* XCRemoteSwiftPackageReference "OSLogKit" */;
+			productName = OSLogKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1EA458972A3C70080074B96C /* Project object */;
 }
